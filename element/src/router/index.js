@@ -4,7 +4,7 @@ import Login from '../components/Login'
 import Register from '../components/Register'
 import ResetPassword from '../components/ResetPassword'
 import Main from '../components/Main'
-import DashBroad from "../components/DashBroad";
+import DashBoard from "../components/DashBoard";
 import Setting from "../components/Setting";
 
 Vue.use(Router)
@@ -34,7 +34,7 @@ export default new Router({
       children:[
         {
           path: 'dash',
-          component: DashBroad,
+          component: DashBoard,
         }, {
           path: 'setting',
           component: Setting,
